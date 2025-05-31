@@ -1,4 +1,5 @@
-const FORECASTS = [
+const FORECASTS = {
+  images: [
   'https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/1.png',
   'https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/2.png',
   'https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/3.png',
@@ -23,6 +24,7 @@ const FORECASTS = [
 'https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/22.png',
 'https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/23.png'
 ]
+}
 
 let shownIndices = [];
 
