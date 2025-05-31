@@ -48,7 +48,7 @@ body {position: relative;
   
   /* размеры кнопки */
   width: 281px; /* узкая */
-  height: 600px; /* высокая */
+  height: auto; /* высокая */
   
   background-image: url("https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/box.png");
   background-color: #12345600;
