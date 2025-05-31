@@ -20,7 +20,7 @@ body {position: relative;
 .forecast {
   position: fixed;
   left: 30%;
-  bottom: 40%; /* расстояние от нижнего края, регулируйте по необходимости */
+
   transform: translateX(-70%);
 	margin: 0;
 	width: 500px;
