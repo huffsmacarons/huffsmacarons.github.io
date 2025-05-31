@@ -15,7 +15,7 @@ body {position: relative;
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	height: 95vh;
+	height: auto;
 }
 .title {
 	padding: 0;
@@ -26,13 +26,13 @@ body {position: relative;
 .forecast {
   position: fixed;
   left: 20%;
-  bottom: 150px; /* расстояние от нижнего края, регулируйте по необходимости */
+  bottom: 50%; /* расстояние от нижнего края, регулируйте по необходимости */
   transform: translateX(-80%);
 	padding: 0;
 	color: black;
 	margin: 0;
 	width: 100vw;
-	height: 600px;
+	height: auto;
 	min-height: 600px;
 	margin: 0;
 }
@@ -41,7 +41,7 @@ body {position: relative;
 .button {
   position: fixed;
   left: 50%;
-  bottom: 150px; /* расстояние от нижнего края, регулируйте по необходимости */
+  bottom: 100px; /* расстояние от нижнего края, регулируйте по необходимости */
   transform: translateX(-50%);
   
   /* размеры кнопки */
