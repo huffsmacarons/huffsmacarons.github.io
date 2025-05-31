@@ -31,14 +31,9 @@ body {position: relative;
 	flex-direction: column;
 	padding: 0 30px 30px;
 	color: black;
-	font-family: monospace;
-	font-size: 14px;
-	line-height: 140%;
-	text-align: center;
 	margin: 0;
 	width: 100vw;
-	height: 100vw;
-	background-size: 100vw 100vw;
+	height: auto;
 	min-height: 600px;
 	margin: 0;
 }
