@@ -16,7 +16,7 @@ body {position: relative;
 	gap: 20px;
 	height: 95vh;
 	justify-content: end;
-	min-height: calc(600px + 600px)
+	min-height: calc(600px + 600px);
 }
 .title {
 	padding: 0;
@@ -37,7 +37,7 @@ body {position: relative;
 	text-align: center;
 	margin: 0;
 	width: 100vw;
-	height: calc(100vw * 282 / 400);
+	height: 600px;
 	background-size: 100vw 600px;
 	min-height: 600px;
 	margin: 0;
