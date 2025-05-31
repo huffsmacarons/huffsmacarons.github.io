@@ -45,8 +45,8 @@ body {
 	bottom:20px; /* отступ снизу */
 	transform: translateX(-50%);
 	
-	width:300px; /* пример ширины */
-	height:auto; /* сохраняет пропорции или задайте конкретную высоту */
+	width: auto; /* пример ширины */
+	height: 600px; /* сохраняет пропорции или задайте конкретную высоту */
 	
 	background-image:url("https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/box.png");
 	background-size:auto cover;
