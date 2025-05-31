@@ -13,7 +13,7 @@ body {position: relative;
 
 .app {position: relative; 
 	display: flex;
-	flex-direction: column;
+	flex-flow: row nowrap;
 	gap: 20px;
 	height: 95vh;
 	justify-content: end;
@@ -29,7 +29,7 @@ body {position: relative;
 	display: flex;
 
 	flex-flow: row nowrap;
-	padding: 0 30px 30px;
+	padding: 0;
 	color: black;
 	margin: 0;
 	width: 100vw;
@@ -42,7 +42,7 @@ body {position: relative;
 .button {
   position: fixed;
   left: 50%;
-  bottom: 20px; /* расстояние от нижнего края, регулируйте по необходимости */
+  bottom: 60px; /* расстояние от нижнего края, регулируйте по необходимости */
   transform: translateX(-50%);
   
   /* размеры кнопки */
