@@ -23,7 +23,7 @@ const FORECASTS = {
 'https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/21.png',
 'https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/22.png',
 'https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/23.png'
-]
+],
 }
 
 let shownIndices = [];
