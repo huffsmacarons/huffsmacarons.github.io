@@ -18,10 +18,10 @@ body {position: relative;
 }
 
 .forecast {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
+  position: fixed;
+  left: 20%;
+  bottom: 50%; /* расстояние от нижнего края, регулируйте по необходимости */
+  transform: translateX(-80%);
 	padding: 0 30px 30px;
 	margin: 0;
 	width: 100vw;
