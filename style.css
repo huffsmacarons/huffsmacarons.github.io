@@ -20,11 +20,11 @@ body {position: relative;
 .forecast {
   position: fixed;
   left: 30%;
-  bottom: 50%; /* расстояние от нижнего края, регулируйте по необходимости */
+  bottom: 40%; /* расстояние от нижнего края, регулируйте по необходимости */
   transform: translateX(-70%);
 	margin: 0;
-	width: 600px;
-	height: 600px;
+	width: 500px;
+	height: 500px;
 	background-size: contain;
 	min-height: 600px;
 	margin: 0;
@@ -32,9 +32,9 @@ body {position: relative;
 
 .button {
   position: fixed;
-  left: 60%;
+  left: 70%;
   bottom: 100px; /* расстояние от нижнего края, регулируйте по необходимости */
-  transform: translateX(-40%);
+  transform: translateX(-30%);
   
   /* размеры кнопки */
   width: 281px; /* узкая */
