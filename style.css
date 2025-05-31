@@ -34,9 +34,9 @@ body {position: relative;
 
 .button {
   position: fixed;
-  left: 50%;
+  left: 70%;
   bottom: 100px; /* расстояние от нижнего края, регулируйте по необходимости */
-  transform: translateX(-50%);
+  transform: translateX(-40%);
   
   /* размеры кнопки */
   width: 281px; /* узкая */
