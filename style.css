@@ -33,20 +33,21 @@ body {
 	padding: 0 30px 30px;
 	color: black;
 	margin: 0;
-	width: 100vw;
-	height: auto;
-	min-height: 600px;
-	margin: 0;
+	width: 100vw; /* ширина на всю страницу */
+	min-height: 600px; /* минимальная высота */
+	
+	/* Чтобы сдвинуть его левее, добавим отступ слева */
+	margin-left: 10%; /* или любой другой отступ, например, 50px */
 }
-/* Обновляем кнопку для фиксации внизу страницы */
+
+/* Обновляем кнопку для фиксации в правом нижнем углу */
 .button {
 	position: fixed; /* фиксированное положение */
-	left:60%;
-	bottom:20px; /* отступ снизу */
-	transform: translateX(-40%);
+	right: 20px; /* отступ справа */
+	bottom: 20px; /* отступ снизу */
 	
-	width: 281px; /* пример ширины */
-	height: 600px; /* сохраняет пропорции или задайте конкретную высоту */
+	width: 281px; /* ширина кнопки */
+	height: 600px; /* высота по содержимому или задайте конкретную высоту */
 	
 	background-image:url("https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/box.png");
 	background-size:auto cover;
