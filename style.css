@@ -10,7 +10,7 @@ body {position: relative;
 	background-repeat: no-repeat;
 }
 
-.app {
+.app {position: relative; 
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
