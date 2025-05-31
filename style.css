@@ -15,7 +15,7 @@ body {position: relative;
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	height: auto;
+	height: 100vw;
 }
 .title {
 	padding: 0;
