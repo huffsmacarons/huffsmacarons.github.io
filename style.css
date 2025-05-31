@@ -13,7 +13,7 @@ body {position: relative;
 
 .app {position: relative; 
 	display: flex;
-	flex-flow: row nowrap;
+	flex-direction: column;
 	gap: 20px;
 	height: 95vh;
 	justify-content: end;
@@ -26,9 +26,10 @@ body {position: relative;
 }
 
 .forecast {
-	display: flex;
-
-	flex-flow: row nowrap;
+  position: fixed;
+  left: 20%;
+  bottom: 20px; /* расстояние от нижнего края, регулируйте по необходимости */
+  transform: translateX(-80%);
 	padding: 0;
 	color: black;
 	margin: 0;
@@ -42,7 +43,7 @@ body {position: relative;
 .button {
   position: fixed;
   left: 50%;
-  bottom: 60px; /* расстояние от нижнего края, регулируйте по необходимости */
+  bottom: 20px; /* расстояние от нижнего края, регулируйте по необходимости */
   transform: translateX(-50%);
   
   /* размеры кнопки */
