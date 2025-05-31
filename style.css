@@ -41,11 +41,11 @@ body {
 /* Обновляем кнопку для фиксации внизу страницы */
 .button {
 	position: fixed; /* фиксированное положение */
-	left:50%;
+	left:60%;
 	bottom:20px; /* отступ снизу */
-	transform: translateX(-50%);
+	transform: translateX(-40%);
 	
-	width: auto; /* пример ширины */
+	width: 281px; /* пример ширины */
 	height: 600px; /* сохраняет пропорции или задайте конкретную высоту */
 	
 	background-image:url("https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/box.png");
