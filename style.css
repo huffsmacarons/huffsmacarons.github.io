@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {background-color:#000;
+	background-image: url("https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/background.png");
+	background-color:#000;
+	background-position: center center;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+	background-repeat: no-repeat;
+}
+
+.app {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	height: 95vh;
+	justify-content: end;
+	min-height: calc(238px + 282px)
+}
+.title {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.forecast {background-image: url("https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/box.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 30px 30px;
+	color: black;
+	font-family: monospace;
+	font-size: 14px;
+	line-height: 140%;
+	text-align: center;
+	margin: 0;
+	width: 100vw;
+	height: calc(100vw * 282 / 400);
+	background-size: 100vw 282px;
+	min-height: 282px;
+	margin: 0;
+}
+
+
+.button {background-image: url("https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/button.png");
+	background-color: #12345600;
+	width: 100vw;
+	height: calc(100vw * 238 / 300);
+	background-size: 100vw 238px;
+	border: none;
+	min-height: 238px;
+	transition: background 0.3s ease;
+}
+
+@media (min-width: 300px) {
+	.button {
+		margin: 0 0 0 calc(100vw - 300px);
+		min-height: 238px;
+		height: 238px;
+		width: 300px;
+		background-size: 300px 238px;
+	}
+}
+
+@media (min-width: 360px) {
+	.button {
+		margin: 0 0 0 20vw;	
+	}
+}
+
+@media (min-width: 400px) {
+    .forecast {
+		margin: 0 0 0 calc(100vw - 400px);
+		min-height: 282px;
+		height: 282px;
+		width: 400px;
+		font-size: 20px;
+		background-size: 400px 282px;
+    }
+}
+
+@media (min-width: 480px) {
+    .forecast {
+		margin: 0 0 0 20vw;		
+    }
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
