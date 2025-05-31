@@ -19,7 +19,10 @@ const FORECASTS = {
     'https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/17.png',
     'https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/18.png',
     'https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/19.png',
-    'https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io//refs//heads//main//20.png', // обратите внимание на двойной слеш
+    'https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/20.png',
+        'https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/23.png',
+        'https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/22.png',
+        'https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/21.png'
   ],
 };
 
