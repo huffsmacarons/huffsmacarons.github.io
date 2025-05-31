@@ -8,6 +8,7 @@ body {position: relative;
 	background-color:#000;
 	background-size: cover;
 	background-repeat: no-repeat;
+        overflow: hidden;
 }
 
 .app {position: relative; 
@@ -26,9 +27,8 @@ body {position: relative;
 
 .forecast {
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
+
+	flex-flow: row nowrap;
 	padding: 0 30px 30px;
 	color: black;
 	margin: 0;
@@ -40,7 +40,7 @@ body {position: relative;
 
 
 .button {
-  position: absolute;
+  position: fixed;
   left: 50%;
   bottom: 20px; /* расстояние от нижнего края, регулируйте по необходимости */
   transform: translateX(-50%);
