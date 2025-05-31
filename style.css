@@ -42,17 +42,21 @@ body {
 
 /* Обновляем кнопку для фиксации в правом нижнем углу */
 .button {
-	position: fixed; /* фиксированное положение */
-	right: 20px; /* отступ справа */
-	bottom: 20px; /* отступ снизу */
-	
-	width: 281px; /* ширина кнопки */
-	height: 600px; /* высота по содержимому или задайте конкретную высоту */
-	
-	background-image:url("https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/box.png");
-	background-size:auto cover;
-	border:none;
-	transition:bg-color .3s ease;
+  position: absolute;
+  left: 50%;
+  bottom: 20px; /* расстояние от нижнего края, регулируйте по необходимости */
+  transform: translateX(-50%);
+  
+  /* размеры кнопки */
+  width: 281px; /* узкая */
+  height: 600px; /* высокая */
+  
+  background-image: url("https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/box.png");
+  background-color: #12345600;
+  background-size: cover; /* или подгоняйте под размеры */
+  
+  border: none;
+  transition: background 0.3s ease;
 }
 
 /* Медиазапросы для адаптивности остаются по желанию */
