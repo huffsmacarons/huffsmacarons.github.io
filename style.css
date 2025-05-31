@@ -28,7 +28,7 @@ body {position: relative;
 .forecast {
   position: fixed;
   left: 20%;
-  bottom: 20px; /* расстояние от нижнего края, регулируйте по необходимости */
+  bottom: 50px; /* расстояние от нижнего края, регулируйте по необходимости */
   transform: translateX(-80%);
 	padding: 0;
 	color: black;
@@ -43,7 +43,7 @@ body {position: relative;
 .button {
   position: fixed;
   left: 50%;
-  bottom: 20px; /* расстояние от нижнего края, регулируйте по необходимости */
+  bottom: 50px; /* расстояние от нижнего края, регулируйте по необходимости */
   transform: translateX(-50%);
   
   /* размеры кнопки */
