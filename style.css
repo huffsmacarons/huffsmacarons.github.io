@@ -49,9 +49,10 @@ body {position: relative;
   height: 600px; /* высокая */
   
   background-image: url("https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/box.png");
-  background-color: #12345600;
-
+  background-color: transparent; 
   
+  /* Настройка размера фона */
+  background-size: contain;
   border: none;
   transition: background 0.3s ease;
 }
