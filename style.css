@@ -24,9 +24,9 @@ body {position: relative;
   transform: translateX(-80%);
 	padding: 0 30px 30px;
 	margin: 0;
-	width: 100vw;
-	height: calc(100vw * 282 / 400);
-	background-size: 100vw 282px;
+	width: auto;
+	height: auto;
+	background-size: contain;
 	min-height: 282px;
 	margin: 0;
 }
