@@ -16,7 +16,7 @@ body {position: relative;
 	flex-direction: column;
 	gap: 20px;
 	height: 95vh;
-	justify-content: end;
+
 	min-height: calc(600px + 600px);
 }
 .title {
