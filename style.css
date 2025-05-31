@@ -54,7 +54,6 @@ body {background-color:#000;
 	   position: absolute;
 	 top: 60%;
   left: 50%;
-  transform: translate(-40%, -50%);
 }
 
 @media (min-width: 300px) {
