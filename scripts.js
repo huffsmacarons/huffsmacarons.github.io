@@ -37,7 +37,6 @@ const handleClick = () => {
   }
 
   if (shownIndices.length === FORECASTS.images.length) {
-    // Все показаны — можно сбросить или оставить последний
     shownIndices = [];
   }
 
@@ -50,11 +49,18 @@ const handleClick = () => {
   const imageUrl = FORECASTS.images[randomIndex];
   shownIndices.push(randomIndex);
 
-  // Вместо текста вставляем изображение
-  forecastNode.innerHTML = ''; // очищаем
+  // Очистка предыдущего содержимого
+  forecastNode.innerHTML = '';
+
+  // Создаем изображение
   const img = document.createElement('img');
   img.src = imageUrl;
   img.alt = "Forecast Image";
+
+  // Добавляем стили для видимости
+  img.style.maxWidth = '100%';
+  img.style.height = 'auto';
+
   forecastNode.appendChild(img);
 }
 
