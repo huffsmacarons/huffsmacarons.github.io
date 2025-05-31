@@ -50,7 +50,7 @@ body {position: relative;
   
   background-image: url("https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/box.png");
   background-color: #12345600;
-  background-size: cover; /* или подгоняйте под размеры */
+
   
   border: none;
   transition: background 0.3s ease;
