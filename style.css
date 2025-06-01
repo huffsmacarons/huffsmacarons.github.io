@@ -20,11 +20,11 @@ body {position: relative;
 .forecast {
   position: fixed;
   left: 35%;
-  top: 50%;
+  top: 30%;
   transform: translateX(-65%);
 	margin: 0;
-	width: 450px;
-	height: 450px;
+	width: 550px;
+	height: 550px;
 	background-size: contain;
 	min-height: 300px;
 	margin: 0;
