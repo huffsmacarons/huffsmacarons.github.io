@@ -10,7 +10,7 @@ body {
 
 .app { 
 	display: flex;
-	align-content: end;
+	align-items: flex-end;
 	justify-content: center;
 	flex-direction: row;
 	gap: 20px;
@@ -20,7 +20,7 @@ body {
 
 .forecast {
 	display: flex;
-	align-items: end;
+	align-items: flex-end;
 	justify-content: center;
 	flex-direction: row;
 	padding: 0 30px 30px;
