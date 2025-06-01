@@ -9,7 +9,7 @@ body {position: relative;
 
 .app { 
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	gap: 20px;
 	height: 95vw;
 }
