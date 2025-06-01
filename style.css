@@ -20,7 +20,7 @@ body {position: relative;
 .forecast {
   position: fixed;
   left: 35%;
-  top: 30%;
+  vertical-align: middle;
   transform: translateX(-65%);
 	margin: 0;
 	width: 550px;
