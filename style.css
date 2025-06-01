@@ -20,7 +20,7 @@ body {
 
 .forecast {
 	display: flex;
-	align-items: center;
+	align-items: end;
 	justify-content: center;
 	flex-direction: row;
 	padding: 0 30px 30px;
