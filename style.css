@@ -10,6 +10,7 @@ body {
 
 .app { 
 	display: flex;
+	margin-top: 60px:
 	align-items: flex-end;
 	justify-content: center;
 	flex-direction: row;
@@ -34,7 +35,6 @@ body {
 	background-size: contain;
 	min-height: 300px;
 	margin: 0;
-	bottom: 30%
 }
 
 .button {
@@ -46,7 +46,6 @@ body {
   background-repeat: no-repeat;
   border: none;
   transition: background 0.3s ease;
-bottom: 30%
 }
 
 
