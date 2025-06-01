@@ -10,8 +10,8 @@ body {position: relative;
 
 .app { 
 	display: flex;
-	align-items: center;
-	justify-content: end;
+	align-items: end;
+	justify-content: center;
 	flex-direction: row;
 
 }
