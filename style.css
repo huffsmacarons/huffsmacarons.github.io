@@ -9,6 +9,8 @@ body {position: relative;
 
 .app { 
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	flex-direction: row;
 	gap: 20px;
 	height: 95vw;
