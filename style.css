@@ -14,7 +14,7 @@ body {position: relative;
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	height: auto;
+	height: 90vw;
 }
 
 .forecast {
@@ -23,22 +23,22 @@ body {position: relative;
 
   transform: translateX(-70%);
 	margin: 0;
-	width: 500px;
-	height: 500px;
+	width: 40%;
+	height: 40%;
 	background-size: contain;
-	min-height: 600px;
+	min-height: 300px;
 	margin: 0;
 }
 
 .button {
   position: fixed;
-  left: 70%;
+  left: 65%;
   bottom: 100px; /* расстояние от нижнего края, регулируйте по необходимости */
-  transform: translateX(-30%);
+  transform: translateX(-35%);
   
   /* размеры кнопки */
-  width: 281px; /* узкая */
-  height: 600px; /* высокая */
+  height: 70vw; /* высокая */
+  width: auto;
   
   background-image: url("https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/box.png");
   background-color: transparent; 
