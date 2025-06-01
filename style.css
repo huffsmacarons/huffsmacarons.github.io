@@ -47,9 +47,17 @@ body {
   transition: background 0.3s ease;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
 	.app {
 		flex-direction: column;
+	}
+	.forecast {
+		width: 290px;
+		height: 290px;
+	}
+	.button {
+		width: 270px;
+		height: 378px;	
 	}
 }
 
