@@ -23,8 +23,8 @@ body {position: relative;
 
   transform: translateX(-70%);
 	margin: 0;
-	width: 40%;
-	height: 40%;
+	width: 450px;
+	height: 450px;
 	background-size: contain;
 	min-height: 300px;
 	margin: 0;
@@ -37,8 +37,8 @@ body {position: relative;
   transform: translateX(-35%);
   
   /* размеры кнопки */
-  height: 70vw; /* высокая */
-  width: auto;
+  height: 550px; /* высокая */
+  width: 258px;
   
   background-image: url("https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/box.png");
   background-color: transparent; 
