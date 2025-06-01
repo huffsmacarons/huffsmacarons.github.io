@@ -5,6 +5,8 @@
 body {
 	background-color: #F9EAC4;
 	background-image: url("https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/wall111.png");
+	background-size: cover;
+	background-position: center;
 }
 
 .app { 
