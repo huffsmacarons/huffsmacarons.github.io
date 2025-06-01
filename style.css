@@ -50,6 +50,7 @@ body {
 @media (max-width: 500px) {
 	.app {
 		flex-direction: column;
+		margin-top: 10px;
 	}
 	.forecast {
 		width: 290px;
