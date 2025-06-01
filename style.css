@@ -47,6 +47,11 @@ body {
   transition: background 0.3s ease;
 }
 
+@media (min-width: 480px) {
+	.app {
+		flex-direction: column;
+	}
+}
 
 .button:hover {
   cursor: pointer;
