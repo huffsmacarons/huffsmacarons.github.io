@@ -17,7 +17,11 @@ body {
 	bottom: 30%;
 
 }
-
+.title {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
 .forecast {
 	display: flex;
 	align-items: flex-end;
