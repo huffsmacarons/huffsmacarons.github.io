@@ -13,6 +13,8 @@ body {position: relative;
 	align-items: end;
 	justify-content: center;
 	flex-direction: row;
+	gap: 20px;
+	height: 95vw;
 
 }
 
