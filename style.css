@@ -20,8 +20,8 @@ body {position: relative;
 .forecast {
   position: fixed;
   left: 40%;
-  bottom: 50%;
-  transform: translateX(-60%);
+  top: 50%;
+  transform: translateX(-60% -50%);
 	margin: 0;
 	width: 450px;
 	height: 450px;
