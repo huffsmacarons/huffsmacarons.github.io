@@ -3,11 +3,8 @@
 }
 
 body {position: relative;
-	background-color:#000;
-	background-image: url("https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/background.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-        overflow: hidden;
+	background-color:#F9EAC4;
+
 }
 
 .app { 
@@ -32,16 +29,13 @@ body {position: relative;
 }
 
 .button {
-  position: fixed;
-  left: 65%;
-  bottom: 50px; /* расстояние от нижнего края, регулируйте по необходимости */
-  transform: translateX(-35%);
+
   
   /* размеры кнопки */
   height: 550px; /* высокая */
-  width: 258px;
+  width: 394px;
   
-  background-image: url("https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/box.png");
+  background-image: url("https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/box_1.png");
   background-color: transparent; 
   background-size: contain;
 	background-repeat: no-repeat;
