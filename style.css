@@ -13,7 +13,7 @@ body {
 .app { 
 	display: flex;
 	margin-top: 130px;
-	align-items: flex-end;
+	align-items: center;
 	justify-content: center;
 	flex-direction: row;
 	gap: 20px;
@@ -27,7 +27,7 @@ body {
 }
 .forecast {
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
 	justify-content: center;
 	flex-direction: row;
 	padding: 0 30px 30px;
@@ -44,7 +44,7 @@ body {
   width: 394px;
   background-image: url("https://raw.githubusercontent.com/huffsmacarons/huffsmacarons.github.io/refs/heads/main/box_1.png");
   background-color: transparent; 
-
+  background-size: contain;
   background-repeat: no-repeat;
   border: none;
   transition: background 0.3s ease;
